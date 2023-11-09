@@ -1,3 +1,9 @@
+
+
+
+
+
+
 import { Card } from "react-bootstrap";
 
 const PokemonCard = ({ pokemon }) => {
@@ -21,11 +27,20 @@ const PokemonCard = ({ pokemon }) => {
                                 {stat.name}: {stat.base}
                             </li>
                         ))}
+                        {types?.map((type, i) => (
+                            <li key={i}>{type.name}</li>
+                        ))}
                     </Card.Text>
                 </ul>
-                <Card.Text className="text-secondary">{types}</Card.Text>
             </Card.Body>
         </Card>
     );
 };
+
 export default PokemonCard;
+
+
+
+
+
+

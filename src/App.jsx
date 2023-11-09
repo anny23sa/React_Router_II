@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Menu from "react-bootstrap";
+import Menu from "./components/Menu";
 import Home from "./views/Home";
 import Detalle from "./views/Detalle";
 import Pokemones from "./views/Pokemones";

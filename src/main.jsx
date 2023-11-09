@@ -5,6 +5,7 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
+import { Navbar } from 'react-bootstrap'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
